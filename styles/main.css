@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: Arial, monospace;
+    background-color:darkslategrey;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 56pt;
+}
+h2 {
+    background-color: rgb(230, 17, 230);
+    padding: 2px;
+}
+h3 {
+    font-size: 36pt;
+}
+p {
+    font-size: 14pt;
+}
+
+#main-menu {
+    background-color: tomato;
+}
+
+li {
+    display: inline;
+}
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+.highlight {
+    color: rgb(230, 17, 230);
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#main-menu {
+    padding: 2px;
+    
+}
+
+img {
+    max-width: 400px;
+}
+
+pre code {
+    font-size: 12pt;
+    background-color: gray;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
