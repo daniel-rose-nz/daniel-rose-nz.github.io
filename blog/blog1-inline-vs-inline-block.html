@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <head>
+    <title>The Black Wizard - Learning the ancient art of Web Dev</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+   
+<style>
+
+.a {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid pink;  
+  background-color: black; 
+}
+
+.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid pink;    
+  background-color: black; 
+}
+
+.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid pink;    
+  background-color: black; 
+}
+
+</style>
+
+  </head> 
+  <body>
+    <h1>I am the Black Wizard</h1> 
+    <h2>Learning the ancient art of Web Dev</h2>
+    <nav id="main-menu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>&nbsp &nbsp
+          <li><a href="blog/blog1-inline-vs-inline-block.html">Tech</a></li>&nbsp &nbsp
+          <li><a href="#">Topic 2</a></li>&nbsp &nbsp
+          <li><a href="#">Topic 3</a></li>
+        </ul>
+      </nav>
+
+  <div class="main-content">
+    
+    <div class="column">
+        <h3>CSS Display</H3>
+        <p>There are 3 CSS (cascading style sheets) values which determine display behaviour on a web page.</p>
+        <p><span class="highlight">inline</span> displays in a horizontal sequence with otherelements inline  - each flowing one after the other across the page. Any height and width properties will have no effect.</p>
+        <p>This is an example of inline elements: <span class="a">thing 1</span><span class="a">thing 2</span></p>
+
+        <p>The CSS for <span class="highlight">inline</span> looks like this:</p>
+        <pre>
+            <code>
+                display: inline;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                border: 1px solid pink;  
+                background-color: black; 
+            </code>
+        </pre>
+
+
+        <p><span class="highlight">inline-block</span> displays an element as an inline-level block container. Similar to inline, except you can now set height and width values.
+        </p>
+        <p>This is an example of inline-block elements: <span class="b">thing 1</span><span class="b">thing 2</span></p>
+
+        <p>The CSS for <span class="highlight">inline-block</span> looks like this:</p>
+        <pre>
+            <code>
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                border: 1px solid pink;  
+                background-color: black; 
+            </code>
+        </pre>
+
+
+<p>While inline elements appear on the same line, <span class="highlight">block</span> elements display on a new line and takes up the full width available. So that means block elements will occupy the entire width of its parent element</p>
+        <p>This is an example of block elements: <span class="c">thing 1</span><span class="c">thing 2</span></p>
+      
+        <p>The CSS for <span class="highlight">block</span> looks like this:</p>
+        <pre>
+            <code>
+                display: block;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                border: 1px solid pink;  
+                background-color: black; 
+            </code>
+        </pre>    
+
+    </div>
+    <div class="column">
+    <img src="#" alt="">
+    </div>
+  </div>
+  </body>
+</html>
