@@ -23,6 +23,7 @@ p {
 
 #main-menu {
     background-color: tomato;
+    padding: 2px;
 }
 
 li {
@@ -40,9 +41,8 @@ li {
     font-family: monospace;
 }
 
-#main-menu {
-    padding: 2px;
-    
+.main-content {
+    padding: 0px 60px 40px 40px;
 }
 
 img {
