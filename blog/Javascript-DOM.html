@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+  <head>
+    <title>The Black Wizard - Learning the ancient art of Web Dev</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+   
+  </head> 
+  <body>
+    <h1>I am the Black Wizard</h1> 
+    <h2>Learning the ancient art of Web Dev</h2>
+  <nav id="main-menu">
+    <ul>
+      <li><a href="../index.html">Home</a></li>&nbsp &nbsp
+      <li><a href="blog1-inline-vs-inline-block.html">Tech</a></li>&nbsp &nbsp
+      <li><a href="learning-plan.html">Learning Plan</a></li>&nbsp &nbsp
+      <li><a href="identity.html">Values and Identity</a></li>&nbsp &nbsp
+      <li><a href="problem-solving.html">Problem Solving Magic</a></li>&nbsp &nbsp
+      <li><a href="Javascript-DOM.html">JavaScript DOM</a></li>&nbsp &nbsp
+    </ul>
+  </nav>
+
+  <div class="main-content">
+    
+    </p>
+    <div class="column">
+      <p>
+        <div><img src="../images/magic-hand-2-sml.jpeg"></div>
+      </p>  
+    </div>
+    <div class="column">
+        
+          <h3>Javascript + DOM</h3> 
+            <h2>Feet vs Socks / HTML vs CSS</h2>
+          <p>
+            Hypertext markup language (HTML) and Cascading style sheets(CSS) work together to display content 
+            in an apporpriate form. HTML is a markup language that provides simple formating capabilities directly 
+            to content within a document, it also tags and categorises content which allows it be targeted by CSS. 
+            CSS provides powerful stylistic features that allow a designer to control how content is displayed, basically allows control of the form of the content. CSS can be applied within 
+            a single document or be referenced by multiple html files to give consistency across an entire multi-page 
+            website. Having styles controlled from a single CSS file allows for efficient manipulation of styles and negates 
+            the need to update individual files when changes are desired.  
+          </p>
+          <p>
+            <em>I suppose one might use the analogy that if a body part(content) was categorised or tagged(HTML) as a "feet", then choosing the appropriate fashioinable socks would be the CSS.</em>   
+          </p>
+            <h3>Control Flow is Cool</h3>
+          <p>
+            The control flow is the order in which the computer executes statements in a script. 
+          <p>
+            Control flow is cool because you can control the energy flow through the software. 
+          </p>      
+            Control flow means that when you read a script, you must not only read from start to finish but also look at program structure and how it affects order of execution.
+            Code is run in order from the first line in the file to the last line, unless the computer runs across the (extremely frequent) structures that change the control flow, such as conditionals and loops.
+          </p>
+            <pre>
+                <code>
+              if (chicken==cute) {
+                  keep();
+              } else {
+                  eat();
+              }
+                </code>
+            </pre>
+          <p>
+            * No chickens were harmed in this code example.
+          </p>
+          <h3>Magic Loops</h3>
+          <p>
+             <pre>
+               <code>
+                for (let jump = 0; jump < 10; jump++) {
+                  // Runs 10 times, with values of jump 0 through to 9.
+                  console.log('Jumping');
+                }
+               </code>
+             </pre>   
+          </p>
+          <p>
+            Loops essentially provide an intstruction to repeat something a given number of times. 
+            In this example the computer is asked to jump 10 times. I'm not sure that's possible, but we can test it, or imagine it. 
+            <em>Jump... jump... jump... and so on...</em> 
+          </p>
+          <h3>The Document Object Model</h3>
+          <p>
+            The Document Object Model, or the DOM for those in the know... is a hierarchical struture consisting of
+            all elements within an html document and provides a framework for JavaScript to access and make use of these elements.  
+          </p>
+          <p>
+            For example, the code below will access the &ltp&gt tags within an html document and return an array-like object. 
+          </p>
+          <pre>
+            <code>
+              const elementRefArray = document.getElementsByTagName('p')
+            </code>
+          </pre>
+          
+          <h2>Arrays of and Objects of Desire</h2>
+          <p>
+              Arrays are a JavaScript that contain a list of discrete things which could be objects. 
+              Objects are self contained things that hold data about the thing. For example an arrary could
+              consist of a list of types of luxury cars, whereas the object might contain data about each 
+              individual luxury car. 
+          </p>
+            <Pre>
+              <code>
+                //An array example
+                let luxCars = ["Porsche", "Lamborgini", "Tesla"];
+              </code>
+            </Pre>
+          
+          <p>
+            <Pre>
+              <code>
+                // An object example
+                let Porsche = {
+                  color: Space Grey,
+                  top speed: 300km/hr,
+                  price: $200,000  
+                }
+              </code>
+            </Pre>
+          </p>
+          <p>
+            Arrays can be accessed by referencing the index (number) corrolated to the desired value, the first being 0 indexed. 
+            For example, the code below would access "Porsche". 
+          </p>
+          <pre>
+            <code>
+              console.log(luxCars[0])
+            </code>
+          </pre>
+          <p>
+            However, Objects are accessed by a dot property accessor or square brackets property accessor: 
+          </p>
+          <pre>
+            <code>
+              console.log(Porsche.color)
+              console.log(Porsche[color])
+            </code>
+          </pre>
+          <h2>Would you like a little function with that?</h2>
+          <p>
+            Javascript functions are a set of statements that performs a task 
+            or calculates a value. A function takes an input and returns an output
+            where there is a direct relationship between the input and the output. To use a function,
+             it must be defined within the scope from which you call it.
+          </p>
+          <pre>
+            <code>
+              function chicken(little) {
+                return little;
+              }
+            </code>
+          </pre>
+    </div>
+  </div>
+  </body>
+</html>
