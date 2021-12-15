@@ -19,6 +19,7 @@ h3 {
 }
 p {
     font-size: 14pt;
+    padding: 0px 20px 0px 20px;
 }
 
 #main-menu {
@@ -29,20 +30,20 @@ p {
 li {
     display: inline;
 }
+
+.main-content {
+    padding: 0px 60px 40px 40px;
+}
+
 .column {
     float: left;
     width: 50%;
-
 }
 
 .highlight {
     color: rgb(230, 17, 230);
     font-weight: bold;
     font-family: monospace;
-}
-
-.main-content {
-    padding: 0px 60px 40px 40px;
 }
 
 img {
@@ -57,3 +58,7 @@ pre code {
     padding: 20px;
     overflow: auto;
   }
+
+img {
+    margin: 20px; 
+}
